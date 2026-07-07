@@ -1,0 +1,2 @@
+import{jd as H}from"./chunk-ewvwrrzy.js";import{Dd as z}from"./chunk-n1tz0fqs.js";import{Je as Q}from"./chunk-6w9wqhxg.js";var M=Q((q,A,K,T)=>{q.attr("class",K);let{width:N,height:$,x:I,y:J}=L(q,A);H(q,$,N,T);let f=O(I,J,N,$,A);q.attr("viewBox",f),z.debug(`viewBox configured: ${f} with padding: ${A}`)},"setupViewPortForSVG"),L=Q((q,A)=>{let K=q.node()?.getBBox()||{width:0,height:0,x:0,y:0};return{width:K.width+A*2,height:K.height+A*2,x:K.x,y:K.y}},"calculateDimensionsWithPadding"),O=Q((q,A,K,T,N)=>{return`${q-N} ${A-N} ${K} ${T}`},"createViewBox");
+export{M as gb};
